@@ -19,7 +19,7 @@ dependencies:
   python:
 ```
 
-Import get in files that it will be used:
+Import python in files that it will be used:
 
 ```dart
 import 'package:python/python.dart';
@@ -75,3 +75,27 @@ Adding a module is done by calling the method **addModules** and it takes a list
 pythonScript.addModules(modules);
 ```
 And voila! You've successfully added the required Python modules.
+
+# Verifying file existence
+Unlike the **exists()** method. The method **fileExists()** is provided by Python package that allows the developer to verify if the file exists or not. The main difference between these two functions is **fileExists()** is not asynchronous which means you can assign the result to a variable directly also you can use it as if statement conditions.
+To use this method you have to define an instance from the class Python
+```dart
+Python pythonScript = Python();
+```
+Then call the function and pass the path as a paramter
+```dart
+bool isExists = pythonScript('lib/helloWorld.py');
+```
+The method returns bool that's why we assigned the result to a bool variable.
+
+
+Developer Contact: [Nabil Krissane](https://linktr.ee/nabilkrs)
+------
+
+------
+# Support
+**You can support me by :**
+| Bitcoin Wallet Address  | 3Kty65Zi4i4QPPFgy9UqTYappcjbLsiDU7                                                                         |
+|-------------------------|------------------------------------------------------------------------------------------------------------|
+| Eutherum Wallet Address | 0xb57Dd089D3339b1E36c555B9AAB582934dE76031                                                                 |
+| Patreon Account         | [![](https://i.ibb.co/dJ7KGwF/avatars-000146225244-3a983t-t500x500.jpg)](https://www.patreon.com/nabilkrs) |
