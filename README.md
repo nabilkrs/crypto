@@ -8,6 +8,14 @@ How many times do you wished to add some Python magic to your app ? Executing a 
 
 ![code example](https://i.ibb.co/7tWxvWx/carbon.png) 
 
+# Table of Contents
+- [About Python](#about-python)
+- [Installing](#installing)
+- [Hello World App using Python plugin](#hello-world-app-using-python-plugin)
+- [Add Python Modules](#add-python-modules)
+- [Verifying File Existence](#verifying-file-existence)
+- [Contact & Support](#support)
+
 # About Python
 Python is a high-level, interpreted, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation. Python is dynamically-typed and garbage-collected.
 # Installing
@@ -95,6 +103,8 @@ Developer Contact: [Nabil Krissane](https://linktr.ee/nabilkrs)
 ------
 # Support
 **You can support me by :**
+
+
 | Bitcoin Wallet Address  | 3Kty65Zi4i4QPPFgy9UqTYappcjbLsiDU7                                                                         |
 |-------------------------|------------------------------------------------------------------------------------------------------------|
 | Eutherum Wallet Address | 0xb57Dd089D3339b1E36c555B9AAB582934dE76031                                                                 |
